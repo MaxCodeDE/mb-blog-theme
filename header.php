@@ -71,7 +71,7 @@
                 <div class="col-md-9 col-sm-12">
 
                     <div class="title-wrapper">
-                        <h1><a href="#" data-activates="slide-out" class="button-collapse mobile-view"><i class="material-icons">menu</i></a> <a href="<?php echo home_url(); ?>"><?php bloginfo('name');?></a></h1>
+                        <h1><a id="side-menu-button" href="#" data-activates="slide-out" class="button-collapse mobile-view"><i class="material-icons">menu</i></a> <a href="<?php echo home_url(); ?>"><?php bloginfo('name');?></a></h1>
                     </div>
                     <?PHP
                         wp_nav_menu(array(

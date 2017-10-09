@@ -37,3 +37,16 @@ jQuery(document).ready(function() {
 	$(".button-collapse").sideNav();
 	
 });
+
+jQuery(window).on('scroll',function() {
+    console.log('TEST');
+    $ = jQuery;
+    // Runden
+    var stop = Math.round($(window).scrollTop());
+    if (stop > 0) {
+        $('#side-menu-button').removeClass('mobile-view');
+    } else {
+        $('#side-menu-button').addClass('mobile-view');
+    }
+
+});
