@@ -39,7 +39,6 @@ jQuery(document).ready(function() {
 });
 
 jQuery(window).on('scroll',function() {
-    console.log('TEST');
     $ = jQuery;
     // Runden
     var stop = Math.round($(window).scrollTop());

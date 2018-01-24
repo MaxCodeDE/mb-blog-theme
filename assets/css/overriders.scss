@@ -22,3 +22,9 @@ code {
     color: $color-primary;
     background-color: #e0f5f3;
 }
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 85%;
+    }
+}

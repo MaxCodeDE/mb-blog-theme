@@ -17,7 +17,7 @@ $option = array(
 
 <div class="container">
 	<div class="row">
-		<div class="<?php echo ($option['sidebar_active'] ? 'col-md-8 col-sm-8' : 'col-md-8 col-md-offset-2'); ?>">
+		<div class="col-md-11 col-md-offset-1">
 
 			<div id="articles">
 				<?PHP get_template_part('post-loop'); ?>

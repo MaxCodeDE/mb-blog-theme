@@ -12404,6 +12404,9 @@ code {
   color: #009688;
   background-color: #e0f5f3; }
 
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 85%; } }
 .header-placeholder {
   height: 95px; }
 
@@ -12658,7 +12661,8 @@ a:active {
   .article-wrapper h2 a:focus {
     border-bottom: 1px dotted #009688; }
 .article-wrapper .context {
-  padding: 1.5em 0;
+  padding: 0;
+  padding-bottom: 2em;
   line-height: 2em;
   color: #999999; }
   .article-wrapper .context i {
