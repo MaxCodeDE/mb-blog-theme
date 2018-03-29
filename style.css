@@ -12683,7 +12683,8 @@ a:active {
   .article-wrapper .article h3,
   .article-wrapper .article h4 {
     color: #009688;
-    font-weight: 300; }
+    font-weight: 300;
+    font-family: 'Amatic SC'; }
   .article-wrapper .article p {
     font-size: 16px;
     line-height: 1.8em;
