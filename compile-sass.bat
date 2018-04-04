@@ -1,1 +1,1 @@
-sass assets/css/style.scss style.css --no-cache
+sass assets/css/style.scss style.css
